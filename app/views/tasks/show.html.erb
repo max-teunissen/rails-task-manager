@@ -1,0 +1,6 @@
+<h1>Just checking if it works</h1>
+<ul>
+  <li><strong>Title:</strong> <%= @task.title %></li>
+  <li><strong>Details:</strong> <%= @task.details %></li>
+  <li><%= link_to 'Delete', delete_task_path(@task.id), method: :delete, data: { confirm: "Are you sure? Really?"} %></li>
+</ul>

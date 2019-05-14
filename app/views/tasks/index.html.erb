@@ -1,6 +1,12 @@
+<%= yield %>
+
 <h1>All the tasks you need to do:</h1>
 <ul>
   <% @tasks.each do |task| %>
-  <li><h4><%= task.title %></h4><p>task.details</p></li>
+  <li><p><strong>Title:</strong> <%= task.title %> <br><strong>
+    <%= link_to "Details:", task_path(task) %></strong>
+    <%= task.details %><br><%= link_to "edit", edit_task_path(task)%></p></li>
   <% end %>
 </ul>
+
+
