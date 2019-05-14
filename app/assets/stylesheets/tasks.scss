@@ -1,3 +1,97 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-color: rgb(255, 241, 219);
+}
+.index_div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index_ul {
+  background-color: rgb(255, 225, 173);
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+  font-family: 'Stylish', sans-serif;
+  width: 400px;
+}
+
+.link_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+.head {
+  background-color: white;
+  display: flex;
+  width: 450px;
+  justify-content: space-evenly;
+  height: 50px;
+  align-items: center;
+  font-family: 'Stylish', sans-serif;
+  font-size: 30px;
+  box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+p {
+  font-size: 17.5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  background-color: #FFE1AD;
+  box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Stylish', sans-serif;
+  font-size: 30px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#red {
+  color: red;
+}
+
+h1 {
+  font-family: 'Stylish', sans-serif;
+  font-size: 45px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+

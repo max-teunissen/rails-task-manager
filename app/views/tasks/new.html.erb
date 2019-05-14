@@ -1,3 +1,23 @@
-<h1>It works?</h1>
-<%= render 'form', task: @task %>
-
+<div class="index_div">
+  <div class="center">
+    <h1>It works?</h1>
+    <div id="input">
+      <%= form_for(@tasks) do |t| %>
+      <div>
+        <%= t.label :title %>
+      </div>
+      <div>
+        <%= t.text_field :title %>
+      </div>
+      <div>
+        <%= t.label :details %>
+      <div>
+        <%= t.text_field :details %>
+      </div>
+      </div>
+      <div class="button">
+        <%= t.submit %>
+      </div>
+      <% end %>
+  </div>
+</div>

@@ -1,6 +1,10 @@
+<div class= "index_div">
+<div class="index_ul">
 <h1>Just checking if it works</h1>
 <ul>
   <li><strong>Title:</strong> <%= @task.title %></li>
   <li><strong>Details:</strong> <%= @task.details %></li>
-  <li><%= link_to 'Delete', delete_task_path(@task.id), method: :delete, data: { confirm: "Are you sure? Really?"} %></li>
+  <li><%= link_to "Delete", delete_task_path(@task.id), method: :delete, data: { confirm: "Are you sure? Really?"}, :id => "red"%></li>
 </ul>
+</div>
+</div>
